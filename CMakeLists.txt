@@ -3,4 +3,5 @@ project(ProcessorSimulator)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(ProcessorSimulator main.cpp)
+add_executable(ProcessorSimulator main.cpp
+        main_6502.h)
